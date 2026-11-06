@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Shows where a product on Amazon is made, with the evidence behind the answer.",
   "author": "Bates Solutions Inc",
-  "homepage_url": "https://github.com/mbates/country-made-in",
+  "homepage_url": "https://github.com/Bates-Solutions/country-made-in",
   "permissions": ["storage"],
   "host_permissions": [
     "*://*.amazon.com/*",
