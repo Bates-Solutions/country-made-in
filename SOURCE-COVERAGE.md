@@ -8,7 +8,7 @@ adapters on intuition, and to stop a rejected source being re-proposed later bec
 nobody wrote down why it lost.
 
 > This lives at the repo root rather than in `docs/`, which is gitignored in full (see
-> `CLAUDE.md`). A record whose purpose is to stop a decision being re-litigated is no use
+> `.gitignore`). A record whose purpose is to stop a decision being re-litigated is no use
 > on one machine.
 
 ## Status: the gate has not been run

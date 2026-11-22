@@ -82,8 +82,11 @@ Read these before trusting an answer:
 
 ## Privacy
 
-There is no backend and no analytics. Nothing is collected, and nothing leaves your browser except
-the requests you explicitly trigger with the wider search.
+There is no backend and no analytics. The extension keeps its answers in `chrome.storage.local`, in
+your browser: up to 2,000 products, each for 30 days, or 7 days when it found no origin. Your
+settings are in `chrome.storage.sync`, which Chrome syncs to your Google account if sync is on.
+Nothing else leaves your browser. The wider search isn't built yet; when it is, it will send
+requests only when you ask.
 
 ## Development
 
@@ -99,7 +102,7 @@ Extraction and country resolution are pure functions tested against saved page f
 deliberate: parsing correctness is the product, so it is the part with real tests.
 
 CI (`.github/workflows/ci.yml`) runs lint, the format check, typecheck, tests and the build on
-every push to `main` and every pull request.
+every push to `main` and every pull request into `main`.
 
 ## Security
 
