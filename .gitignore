@@ -20,3 +20,7 @@ dist/
 # Extension signing key — pins the extension ID; keep private, never commit
 key.pem
 *.pem
+
+# Claude Code files stay local.
+CLAUDE.md
+.claude/
